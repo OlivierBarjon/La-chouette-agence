@@ -680,6 +680,21 @@ p {
     font-size: 11px;
 }
 
+.pstyleH1 {
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.3em;
+    font-style: italic;
+}
+
+.pstyleH2 {
+    font-size: 22px;
+    line-height: 1.4em;
+    margin-top:-1em;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -688,6 +703,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    font-style: italic;
 }
 
 .cta-hero {
