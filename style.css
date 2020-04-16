@@ -95,6 +95,7 @@ a:hover {
     background-size: 280px 280px;
 }
 
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -680,7 +681,7 @@ p {
     font-size: 11px;
 }
 
-.pstyleH1 {
+.pstyleH1 { /* OB ajout nouvelle classe */
     font-size: 18px;
     font-family: "Open Sans";
     font-weight: 700;
@@ -689,7 +690,7 @@ p {
     font-style: italic;
 }
 
-.pstyleH2 {
+.pstyleH2 { /* OB ajout nouvelle classe */
     font-size: 22px;
     line-height: 1.2em;
     margin-top:-1em;
@@ -717,7 +718,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto 20px auto; /* OB : ajout marges ht et bt */
 }
 
 h2 {
@@ -769,7 +770,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.9);
     padding: 40px 40px 40px 40px;
 }
 
