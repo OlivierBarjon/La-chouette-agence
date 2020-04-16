@@ -290,6 +290,11 @@ body {
     font-weight: 700;
 }
 
+.blocContact {
+    text-align: center;
+    margin-top:20px;
+}
+
 
 /* #######   NAVBAR   ####### */
 
@@ -477,7 +482,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family:"et-line","helvetica", arial, sans-serif; /*"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;*/
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -582,7 +587,7 @@ a[data-lightbox]:hover img {
 /* TEXTES */
 
 p {
-    font-size: 11px;
+    font-size: 14px; /*OB : augmentation de 11 à 14px*/
 }
 
 h1 {
@@ -597,7 +602,7 @@ h2 {
 h3 {
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: bolder;
     color: #333333!important;
 }
 
@@ -605,9 +610,14 @@ h4 {
     color: #333333!important;
 }
 
+label { /* OB : ajout description label*/
+    font-weight: 100;
+    font-style: italic;
+}
+
 .pstyleH1 { /* OB ajout nouvelle classe */
     font-size: 18px;
-    font-family: "Open Sans";
+    font-family: "et-line","helvetica", arial, sans-serif;/*font-family: "Open Sans";*/
     font-weight: 700;
     color: #333333;
     line-height: 1.3em;
@@ -620,18 +630,14 @@ h4 {
     margin-top:-1em;
 }
 
-.pstyleTFooter { /* OB ajout nouvelle classe */
-    font-size: 15px;
-    font-family: "Open Sans";
-}
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "et-line","helvetica", arial, sans-serif;/*font-family: "Open Sans";*/
     font-style: italic;
 }
 
-
+body,
 h1,
 h2,
 h3,
@@ -642,8 +648,8 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
-    font-weight: 400;
+    font-family: "et-line","helvetica", arial, sans-serif;
+    /*font-weight: 400;*/
     color: #575757!important;
 }
 
@@ -763,11 +769,12 @@ a:hover {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin-top: 24px; /* OB : calage en mode petit écran*/
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 22px; /*OB : taille div par 2*/
+    margin-top: 25px; /*OB : taille div par 2*/
 }
 
 .avatar {
@@ -782,6 +789,7 @@ a:hover {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    font-size:16px;
 }
 
 .bgc-white {
@@ -814,7 +822,7 @@ a:hover {
     color: #FFFFFF!important;
 }
 
-.ltc-white:hover {
+.ltc-white:hover { 
     color: #cccccc!important;
 }
 
@@ -855,7 +863,7 @@ a:hover {
         padding-right: 15px; /* OB modification de 0px a 15px */
     }
     .partenaires li {
-        font-size: 20px; /* OB augmentation de la taille des textes pour une meilleure accessibilité en mode petit écran */
+        font-size: 16px; /* OB augmentation de la taille des textes pour une meilleure accessibilité en mode petit écran */
     }
 }
 
