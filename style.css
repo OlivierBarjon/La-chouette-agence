@@ -377,6 +377,9 @@ nav .caret {
     margin: 0 5px;
 }
 
+.partenaires { /*OB : création classe*/
+    font-weight:bold;
+}
 
 /* #######   MENU   ####### */
 
@@ -630,6 +633,9 @@ label { /* OB : ajout description label*/
     margin-top:-1em;
 }
 
+.footer__txt--color { /* OB ajout nouvelle classe */
+    font-weight: bold;
+}
 
 .h1 {
     font-size: 20px;
@@ -808,15 +814,19 @@ a:hover {
     color: #F3976C!important;
 }
 
+/* ####  BOUTONS CONTACT  ##### */
+
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #c27956!important; /* OB modification ancien : #F3976C;*/
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #364577!important;/*# OB modification ancien :c27956!important;*/
     color: #FFFFFF!important;
 }
+
+/* BOUTONS CONTACTG FIN*/
 
 .ltc-white {
     color: #FFFFFF!important;
