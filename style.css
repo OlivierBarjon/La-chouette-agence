@@ -377,9 +377,6 @@ nav .caret {
     margin: 0 5px;
 }
 
-.partenaires { /*OB : création classe*/
-    font-weight:bold;
-}
 
 /* #######   MENU   ####### */
 
@@ -633,8 +630,8 @@ label { /* OB : ajout description label*/
     margin-top:-1em;
 }
 
-.footer__txt--color { /* OB ajout nouvelle classe */
-    font-weight: bold;
+.footer__txt--color, .footer__txt--color p, .footer__txt--color a { /* OB ajout nouvelle classe pour la gestion de la couleur des textes du footer */
+    color:#000000;
 }
 
 .h1 {
@@ -656,7 +653,7 @@ label,
 a {
     font-family: "et-line","helvetica", arial, sans-serif;
     /*font-weight: 400;*/
-    color: #575757!important;
+    color: #575757;
 }
 
 a:hover {
@@ -814,11 +811,11 @@ a:hover {
     color: #F3976C!important;
 }
 
-/* ####  BOUTONS CONTACT  ##### */
+/* ####  COULEURS BOUTONS CONTACT  ##### */
 
 .btn-atomic-tangerine {
-    background: #c27956!important; /* OB modification ancien : #F3976C;*/
-    color: #FFFFFF!important;
+    background: #F3976C!important; /* OB modification ancien : #F3976C;*/
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -826,7 +823,7 @@ a:hover {
     color: #FFFFFF!important;
 }
 
-/* BOUTONS CONTACTG FIN*/
+/* COULEURS BOUTONS CONTACTG FIN*/
 
 .ltc-white {
     color: #FFFFFF!important;
