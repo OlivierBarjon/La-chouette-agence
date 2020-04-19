@@ -346,6 +346,7 @@ body {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    font-size:18px; /*OB ajout*/
 }
 
 .navbar-toggle {
@@ -823,7 +824,7 @@ a:hover {
     color: #FFFFFF!important;
 }
 
-/* COULEURS BOUTONS CONTACTG FIN*/
+/* COULEURS BOUTONS CONTACT FIN*/
 
 .ltc-white {
     color: #FFFFFF!important;
