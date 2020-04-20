@@ -346,7 +346,7 @@ body {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
-    font-size:18px; /*OB ajout*/
+    transform: scale(1.10); /*OB ajout*/
 }
 
 .navbar-toggle {
@@ -483,7 +483,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family:"et-line","helvetica", arial, sans-serif; /*"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;*/
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -618,7 +618,7 @@ label { /* OB : ajout description label*/
 
 .pstyleH1 { /* OB ajout nouvelle classe */
     font-size: 18px;
-    font-family: "et-line","helvetica", arial, sans-serif;/*font-family: "Open Sans";*/
+    font-family: "Open Sans", "helvetica", arial, sans-serif;
     font-weight: 700;
     color: #333333;
     line-height: 1.3em;
@@ -637,7 +637,7 @@ label { /* OB : ajout description label*/
 
 .h1 {
     font-size: 20px;
-    font-family: "et-line","helvetica", arial, sans-serif;/*font-family: "Open Sans";*/
+    font-family: "Open Sans","helvetica", arial, sans-serif;
     font-style: italic;
 }
 
@@ -652,7 +652,7 @@ p,
 label,
 .btn,
 a {
-    font-family: "et-line","helvetica", arial, sans-serif;
+    font-family: "helvetica", arial, sans-serif;
     /*font-weight: 400;*/
     color: #575757;
 }
